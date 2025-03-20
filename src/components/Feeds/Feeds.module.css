@@ -1,0 +1,74 @@
+.Feedcontainer{
+   position: relative;
+   width: 50%;
+}
+.Feedcontainer::after{
+   content: "";
+   position: absolute;
+   height: 100%;
+   width: 1px;
+   background-color: white;
+   top: 0;
+   right: 0;
+   opacity: 0.5;
+}
+.Feedheader{
+   width: 100%;
+   padding: 20px 50px;
+   display: flex;
+   justify-content: center;
+   gap:50%
+}
+.Active{
+   position: relative;
+}
+.Active::after{
+   content: "";
+   position: absolute;
+   width: 100%;
+   height: 3px;
+   background-color: #1d9df0;
+   bottom: -5px;
+   left: 0;
+   border-radius: 3px;
+
+}
+.logoContainer{
+   position: relative;
+   display: flex;
+   gap: 330px;
+   align-items: center;
+}
+.logoContainer::before{
+   width: 100%;
+   height: 1px;
+   top: -135px;
+   position: absolute;
+   content: "";
+   height: 0.5px;
+   background-color: white;
+   right: 0;
+   opacity: 0.4;
+}
+.logoContainer::after{
+   position: absolute;
+   content: "";
+   height: 0.5px;
+   width: 100%;
+   background-color: white;
+   right: 0;
+   top: 45px;
+   opacity: 0.4;
+}
+.search{
+   background-color: transparent;
+   outline: none;
+}
+.logos{
+   display: flex;
+   height: 17px;
+   width: 17px;
+   gap: 12px;
+   margin-left: 65px;
+   filter: brightness(0) saturate(100%) invert(55%) sepia(35%) saturate(4746%) hue-rotate(179deg) brightness(97%) contrast(94%);
+}

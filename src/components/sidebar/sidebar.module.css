@@ -1,0 +1,30 @@
+ .sidecontainer{
+    position: relative;
+ }
+ .sidecontainer::after{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    background-color: white;
+    right: 0;
+    top: 0;
+    opacity: 0.5;
+
+ }
+ .sidecontainer svg{
+   padding: 5px;
+ }
+ .sidecontainer svg:hover{
+   background-color: rgb(62, 65, 68);
+   border-radius: 50px;
+ }
+ .subContainer{
+   padding: 8px;
+   width: 170px;
+   
+ }
+ .subContainer:hover{
+   background-color: rgb(62, 65, 68);
+   border-radius: 20px;
+ }
