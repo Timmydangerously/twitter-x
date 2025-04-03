@@ -1,16 +1,13 @@
 "use client"
 
 import React from 'react'
-import styles from "./searchBar.module.css"
+// import styles from "./searchBar.module.css"
 import { fetchdata } from '@/utilities/fetchdata'
 import { useState } from 'react'
 import { fetchwork } from '@/utilities/fetchdata'
 import Image from 'next/image'
 import { SearchContext } from '@/context/SearchContext'
 import { useContext } from 'react'
-
-
-
 const SearchBar = () => { 
   const { name, result, setResult } = useContext(SearchContext)   
   
@@ -44,7 +41,8 @@ const SearchBar = () => {
         
   
       
-            </div>
+      
+      </div>
     )
   }
   
