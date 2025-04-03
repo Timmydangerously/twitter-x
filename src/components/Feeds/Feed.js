@@ -3,6 +3,7 @@
 import React from 'react'
 import styles from "./Feeds.module.css"
 import { useState } from 'react'
+import Tweet from '../tweet/Tweet'
 
 
 const Feed = () => {
@@ -33,6 +34,7 @@ const Feed = () => {
 
         </div>
       </div>
+      <Tweet/>
     </div>
   )
 }
